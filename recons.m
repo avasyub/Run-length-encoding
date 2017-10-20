@@ -23,7 +23,7 @@ endwhile
 fclose(fid1);
 fclose (fid);
 rle
-imwrite(rle,"image.bmp");
+imwrite(rle,"output.bmp",'bmp');
 
 imshow(rle);
 
